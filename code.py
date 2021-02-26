@@ -1,7 +1,15 @@
+#!/usr/bin/env python3
+
+# Created by Ryan Chung Kam Chung
+# Created in February 2021
+# Rotates servo from 0 to 180 degrees
+
+
 import time
 import board
 import pwmio
 from adafruit_motor import servo
+
 
 def main():
  
